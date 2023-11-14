@@ -1,0 +1,1 @@
+curl -o C:\Users\Public\wallpaper.jpg "https://dmh.lacounty.gov/wp-content/uploads/2021/06/progress-pride-2021.jpg" ; reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\Users\Public\wallpaper.jpg /f  ; RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters ; exit
